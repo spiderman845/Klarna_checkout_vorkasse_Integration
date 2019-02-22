@@ -1,0 +1,22 @@
+{
+    "name": "sleepz/module-klarnaexternalpayment",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "yasir.latif@cubitabo.de",
+            "name": "Yasir Latif"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sleepz\\KlarnaExternalPayment\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
