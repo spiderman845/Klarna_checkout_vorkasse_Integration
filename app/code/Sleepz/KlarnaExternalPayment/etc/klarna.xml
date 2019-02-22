@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<klarna xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Klarna_KcoCore:etc/klarna.xsd">
+    <external_payment_method id="banktransfer" translate="label description" ifconfig="payment/banktransfer/active">
+        <label>Vorkasse</label>
+        <name>Vorkasse</name>
+        <redirect_url><![CDATA[{{secure_base_url}}klarnacustom/banktransfer/placeorder]]></redirect_url>
+        <image_url><![CDATA[{{secure_base_url}}]]>/pub/static/frontend/Sleepz/md/de_DE/images/vorkase.jpg</image_url>
+        <description>Bank Transfer details</description>
+        <fee>0</fee>
+    </external_payment_method>
+</klarna>
